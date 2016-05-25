@@ -16,10 +16,11 @@ int main(void)
 	char *s[] =
 	{
 		"Git tutorial",
-		"Tutorials Point"
+		"Tutorials Point",
+		"New string"
 	};
 
-	for(i = 0; i < 2; ++i)
+	for(i = 0; i < 3; ++i)
 		printf("string lenght of %s = %lu\n", s[i], my_strlen(s[i]));
 
 	return 0;
