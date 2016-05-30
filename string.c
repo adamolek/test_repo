@@ -24,10 +24,11 @@ int main(void)
 	{
 		"Git tutorial",
 		"Tutorials Point",
-		"New string"
+		"New string",
+		"String from test_branch"
 	};
 
-	for(i = 0; i < 3; ++i)
+	for(i = 0; i < 4; ++i)
 		printf("string lenght of %s = %lu\n", s[i], my_strlen(s[i]));
 
 	return 0;
